@@ -1,0 +1,138 @@
+{
+    "meta": {
+        "goldenCopy": {
+            "publishDate": "2022-07-29T00:00:00Z"
+        },
+        "pagination": {
+            "currentPage": 1,
+            "perPage": 15,
+            "from": 1,
+            "to": 1,
+            "total": 1,
+            "lastPage": 1
+        }
+    },
+    "links": {
+        "first": "https://api.gleif.org/api/v1/lei-records?filter%5Blei%5D=724500ZKCJ34UP47MW77&page%5Bnumber%5D=1&page%5Bsize%5D=15",
+        "last": "https://api.gleif.org/api/v1/lei-records?filter%5Blei%5D=724500ZKCJ34UP47MW77&page%5Bnumber%5D=1&page%5Bsize%5D=15"
+    },
+    "data": [
+        {
+            "type": "lei-records",
+            "id": "724500ZKCJ34UP47MW77",
+            "attributes": {
+                "lei": "724500ZKCJ34UP47MW77",
+                "entity": {
+                    "legalName": {
+                        "name": "Stichting Pensioenfonds Alliance",
+                        "language": "nl"
+                    },
+                    "otherNames": [],
+                    "transliteratedOtherNames": [],
+                    "legalAddress": {
+                        "language": "nl",
+                        "addressLines": [
+                            "Stroombaan 14"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Amstelveen",
+                        "region": null,
+                        "country": "NL",
+                        "postalCode": "1181VX"
+                    },
+                    "headquartersAddress": {
+                        "language": "nl",
+                        "addressLines": [
+                            "Stroombaan 14"
+                        ],
+                        "addressNumber": null,
+                        "addressNumberWithinBuilding": null,
+                        "mailRouting": null,
+                        "city": "Amstelveen",
+                        "region": null,
+                        "country": "NL",
+                        "postalCode": "1181VX"
+                    },
+                    "registeredAt": {
+                        "id": "RA000463",
+                        "other": null
+                    },
+                    "registeredAs": "41199776",
+                    "jurisdiction": "NL",
+                    "category": "GENERAL",
+                    "legalForm": {
+                        "id": "V44D",
+                        "other": null
+                    },
+                    "associatedEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "status": "ACTIVE",
+                    "expiration": {
+                        "date": null,
+                        "reason": null
+                    },
+                    "successorEntity": {
+                        "lei": null,
+                        "name": null
+                    },
+                    "successorEntities": [],
+                    "creationDate": "1934-01-01T00:00:00Z",
+                    "subCategory": null,
+                    "otherAddresses": [],
+                    "eventGroups": []
+                },
+                "registration": {
+                    "initialRegistrationDate": "2013-12-17T23:00:00Z",
+                    "lastUpdateDate": "2021-12-18T06:11:44Z",
+                    "status": "ISSUED",
+                    "nextRenewalDate": "2022-12-18T17:25:27Z",
+                    "managingLou": "724500A93Z8V1MJK5349",
+                    "corroborationLevel": "FULLY_CORROBORATED",
+                    "validatedAt": {
+                        "id": "RA000463",
+                        "other": null
+                    },
+                    "validatedAs": "41199776",
+                    "otherValidationAuthorities": []
+                },
+                "bic": [
+                    "STDANL21XXX"
+                ]
+            },
+            "relationships": {
+                "managing-lou": {
+                    "links": {
+                        "related": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77/managing-lou"
+                    }
+                },
+                "lei-issuer": {
+                    "links": {
+                        "related": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77/lei-issuer"
+                    }
+                },
+                "field-modifications": {
+                    "links": {
+                        "related": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77/field-modifications"
+                    }
+                },
+                "direct-parent": {
+                    "links": {
+                        "reporting-exception": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77/direct-parent-reporting-exception"
+                    }
+                },
+                "ultimate-parent": {
+                    "links": {
+                        "reporting-exception": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77/ultimate-parent-reporting-exception"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://api.gleif.org/api/v1/lei-records/724500ZKCJ34UP47MW77"
+            }
+        }
+    ]
+}
